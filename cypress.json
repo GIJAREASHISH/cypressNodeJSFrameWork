@@ -1,0 +1,19 @@
+{
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": false,
+  "baseUrl":"https://facebook.com/",
+  "reporter": "mochawesome",
+  "video":false,
+  "reporterOptions": {
+    "reportDir": "cypress/mocha",
+    "code": false,
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  }
+  
+ 
+  
+  
+}
