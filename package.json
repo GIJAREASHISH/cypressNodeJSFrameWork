@@ -11,10 +11,9 @@
     "generate-report": "marge --no-code --charts cypress/mochareports/report.json -f report -o cypress/mochareports",
     "postqa": "npm run combine-reports && npm run generate-report",
     "qa": "npm run qa-scripts || npm run postqacc"
-
   },
   "dependencies": {
-    "cypress": "^7.6.0",
+    "cypress": "^8.3.1",
     "enquirer": "^2.3.6",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^4.0.1"

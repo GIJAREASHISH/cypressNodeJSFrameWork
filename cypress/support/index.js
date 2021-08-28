@@ -1,5 +1,8 @@
-const signup = require('../support/signup');
+
 const home = require('../support/home');
+const leave = require('../support/leave');
+const admin = require('../support/admin');
+
 
 const addContext = require('mochawesome/addContext')
 import "./commands"
@@ -11,7 +14,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
 
-module.exports = { signup,home
+
+
+module.exports = { leave,home,admin
 };
 
 

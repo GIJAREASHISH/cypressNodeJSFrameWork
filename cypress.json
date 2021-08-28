@@ -1,7 +1,7 @@
 {
   "chromeWebSecurity": false,
   "modifyObstructiveCode": false,
-  "baseUrl":"https://facebook.com/",
+  "baseUrl":"https://opensource-demo.orangehrmlive.com",
   "reporter": "mochawesome",
   "video":false,
   "reporterOptions": {
